@@ -1,6 +1,6 @@
 ﻿using StreamCore.Chat;
 using StreamCore.Config;
-using IllusionPlugin;
+using IPA.Old;
 using System;
 using System.Collections;
 using System.IO;

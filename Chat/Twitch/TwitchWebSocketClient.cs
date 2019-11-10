@@ -90,7 +90,7 @@ namespace StreamCore.Twitch
         private static int _sendResetInterval = 30;
         private static int _messageLimit { get => (OurTwitchUser.isBroadcaster || OurTwitchUser.isMod) ? 100 : 20; } // Defines how many messages can be sent within _sendResetInterval without causing a global ban on twitch 
         private static ConcurrentQueue<KeyValuePair<int, string>> _sendQueue = new ConcurrentQueue<KeyValuePair<int, string>>();
-        
+
         internal static void Initialize_Internal()
         {
             if (Initialized)
